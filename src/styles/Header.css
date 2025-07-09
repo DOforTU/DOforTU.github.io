@@ -1,27 +1,29 @@
 header {
-    max-width: 860px;
+    width: 100vw;
+    max-width: 1440px;
     margin: 0 auto;
     position: fixed;
     top: 0;
     left: 0;
     right: 0;
-    background-color: #fff;
     z-index: 100;
+    height: 70px;
+    max-height: 100%;
+    background-color: #020403;
 }
 
 #header-wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    border-bottom: 2px solid #020403;
-    padding: 50px 0 10px 0;
+    padding: 20px 0px;
 }
 
 .logo {
     cursor: pointer;
     font-size: 32px;
     text-decoration: none;
-    font-weight: 600;
+    height: 30px;
     letter-spacing: 1px;
     transition: color 0.2s;
 }
@@ -49,11 +51,11 @@ header {
 }
 
 .menu-section a:hover {
-    background: #e6eaf3;
+    background: #444;
 }
 
 .menu-section a.active {
-    background: #020403;
+    background: #444;
     color: #fff;
     font-weight: bold;
 }
@@ -73,7 +75,7 @@ header {
 .hamburger span {
     width: 100%;
     height: 2px;
-    background: #020403;
+    background: #fff;
     transition: all 0.3s linear;
 }
 
@@ -107,7 +109,7 @@ header {
         flex-direction: column;
         right: 0;
         top: 100%;
-        background: white;
+        background: #666666;
         width: 100%;
         padding: 20px 0;
         gap: 20px;

@@ -14,7 +14,7 @@ const Header = () => {
         <header className="header">
             <div className="wrapper" id="header-wrapper">
                 <Link to="/#" className="logo">
-                    <img src="/dotu_text_logo_white.png" alt="DOforTU Logo" />
+                    <img src="/dotu_text_logo_white.png" alt="DOforTU Logo" style={{ height: "30px" }} />
                 </Link>
                 <button className="hamburger" onClick={toggleMenu}>
                     <span></span>
@@ -24,12 +24,12 @@ const Header = () => {
                 <div className={`menu-section ${isMenuOpen ? "open" : ""}`}>
                     <div>
                         <Link to="/about-me" className={location.pathname === "/about-me" ? "active" : ""}>
-                            About me
+                            About us
                         </Link>
                     </div>
                     <div>
                         <Link to="/blogs" className={location.pathname === "/blogs" ? "active" : ""}>
-                            Blogs
+                            GitHub
                         </Link>
                     </div>
                 </div>
