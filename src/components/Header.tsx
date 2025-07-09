@@ -23,14 +23,14 @@ const Header = () => {
                 </button>
                 <div className={`menu-section ${isMenuOpen ? "open" : ""}`}>
                     <div>
-                        <Link to="/about-me" className={location.pathname === "/about-me" ? "active" : ""}>
+                        <Link to="/about-us" className={location.pathname === "/about-me" ? "active" : ""}>
                             About us
                         </Link>
                     </div>
                     <div>
-                        <Link to="/blogs" className={location.pathname === "/blogs" ? "active" : ""}>
+                        <a href="https://github.com/DOforTU" target="_blank" rel="noopener noreferrer">
                             GitHub
-                        </Link>
+                        </a>
                     </div>
                 </div>
             </div>

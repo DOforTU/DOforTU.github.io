@@ -1,0 +1,26 @@
+#philosophy-section {
+    padding: 60px 0;
+    background-color: #121413;
+}
+
+#philosophy-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.philosophy-text {
+    font-size: 1.8rem;
+    font-weight: 400;
+    text-align: center;
+    color: #fff;
+    line-height: 1.6;
+    font-style: italic;
+    margin: 0;
+}
+
+@media (max-width: 768px) {
+    .philosophy-text {
+        font-size: 1.4rem;
+    }
+}
