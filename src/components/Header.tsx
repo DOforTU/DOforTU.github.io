@@ -14,7 +14,7 @@ const Header = () => {
         <header className="header">
             <div className="wrapper" id="header-wrapper">
                 <Link to="/#" className="logo">
-                    <img src="/dotu_text_logo_white.png" alt="DOforTU Logo" style={{ height: "30px" }} />
+                    <img src="/dotu_text_logo_white.png" alt="DOforTU Logo" />
                 </Link>
                 <button className="hamburger" onClick={toggleMenu}>
                     <span></span>

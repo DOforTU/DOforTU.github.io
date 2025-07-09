@@ -50,7 +50,7 @@ h6 {
     font-size: 0.875rem; /* 14px */
 }
 
-@media (max-width: 600px) {
+@media (max-width: 768px) {
     .app {
         /* padding: 0rem 0.875rem; */
     }
