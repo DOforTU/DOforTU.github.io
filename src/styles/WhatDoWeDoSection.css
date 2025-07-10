@@ -1,6 +1,6 @@
 #what-do-we-do-section {
     padding: 100px 0;
-    background: #121413;
+    background: linear-gradient(180deg, #0a0f0a 0%, #1a2016 100%);
 }
 
 #what-do-we-do-wrapper {
@@ -49,13 +49,13 @@
 }
 
 .service-card {
-    background: rgba(255, 255, 255, 0.05);
+    background: rgba(255, 255, 255, 0.03);
     backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(73, 146, 0, 0.1);
     padding: 50px 30px;
     border-radius: 15px;
     transition: all 0.3s ease;
-    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.4);
     position: relative;
     overflow: hidden;
 }
@@ -78,8 +78,8 @@
 
 .service-card:hover {
     transform: translateY(-10px);
-    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.4);
-    background: rgba(255, 255, 255, 0.08);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.5);
+    background: rgba(255, 255, 255, 0.05);
 }
 
 .service-icon {
@@ -131,18 +131,18 @@
     display: inline-block;
     margin-top: 15px;
     padding: 8px 16px;
-    background: rgba(73, 146, 0, 0.2);
+    background: rgba(73, 146, 0, 0.15);
     color: #66b300;
     text-decoration: none;
     border-radius: 8px;
     font-size: 0.9rem;
     font-weight: 500;
-    border: 1px solid rgba(73, 146, 0, 0.3);
+    border: 1px solid rgba(73, 146, 0, 0.25);
     transition: all 0.3s ease;
 }
 
 .repo-link:hover {
-    background: rgba(73, 146, 0, 0.3);
+    background: rgba(73, 146, 0, 0.25);
     color: #fff;
     transform: translateY(-2px);
 }

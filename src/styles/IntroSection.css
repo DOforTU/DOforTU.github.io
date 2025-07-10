@@ -2,7 +2,7 @@
     padding-top: 90px;
     padding-bottom: 40px;
     height: 500px;
-    background: linear-gradient(135deg, #020403 0%, #1a1f1c 50%, #2d332f 100%);
+    background: linear-gradient(135deg, #0a0f0a 0%, #1a2016 50%, #2a3328 100%);
     position: relative;
     overflow: hidden;
 }
@@ -22,8 +22,8 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: radial-gradient(circle at 20% 80%, rgba(73, 146, 0, 0.1) 0%, transparent 50%),
-        radial-gradient(circle at 80% 20%, rgba(73, 146, 0, 0.05) 0%, transparent 50%);
+    background: radial-gradient(circle at 20% 80%, rgba(73, 146, 0, 0.08) 0%, transparent 50%),
+        radial-gradient(circle at 80% 20%, rgba(73, 146, 0, 0.04) 0%, transparent 50%);
     pointer-events: none;
 }
 
