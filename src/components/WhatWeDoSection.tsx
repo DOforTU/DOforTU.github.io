@@ -1,5 +1,5 @@
 import React from "react";
-import "../styles/WhatDoWeDoSection.css";
+import "../styles/WhatWeDoSection.css";
 
 const WhatWeDoSection = () => {
     return (
@@ -32,9 +32,22 @@ const WhatWeDoSection = () => {
                                 </a>
                             </div>
                             <div className="service-card">
-                                <div className="service-icon">🤖</div>
-                                <h3>AI Learning Assistant</h3>
-                                <p>머신러닝과 자연어처리 기술을 활용한 개인화된 학습 도우미 시스템을 구축합니다.</p>
+                                <div className="service-icon project-logo tulog-logo">
+                                    <img src="/tulog_text_logo_white.png" alt="TULOG Logo" />
+                                </div>
+                                <h3>TULOG</h3>
+                                <p>
+                                    개인 및 팀 블로그 서비스를 통해 개발자들이 지식을 기록하고 공유할 수 있는 플랫폼을
+                                    제공합니다.
+                                </p>
+                                <a
+                                    href="https://github.com/DOforTU/tulog"
+                                    target="_blank"
+                                    rel="noopener noreferrer"
+                                    className="repo-link"
+                                >
+                                    TULOG GitHub
+                                </a>
                             </div>
                         </div>
                     </div>

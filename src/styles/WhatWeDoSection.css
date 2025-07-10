@@ -165,6 +165,15 @@
     filter: invert(1) brightness(100%) drop-shadow(0 0 10px rgba(255, 255, 255, 0.3));
 }
 
+/* TULOG Logo - No invert filter */
+.tulog-logo img {
+    filter: none !important;
+}
+
+.service-card:hover .tulog-logo img {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 255, 0.3)) !important;
+}
+
 @media (max-width: 768px) {
     .section-title {
         font-size: 2.5rem;
