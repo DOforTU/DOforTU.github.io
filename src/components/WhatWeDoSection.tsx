@@ -37,8 +37,7 @@ const WhatWeDoSection = () => {
                                 </div>
                                 <h3>TULOG</h3>
                                 <p>
-                                    개인 및 팀 블로그 서비스를 통해 개발자들이 지식을 기록하고 공유할 수 있는 플랫폼을
-                                    제공합니다.
+                                    개인 및 팀 블로그 서비스를 통해 일상을 기록하고 공유할 수 있는 플랫폼을 제공합니다.
                                 </p>
                                 <a
                                     href="https://github.com/DOforTU/tulog"
